@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <table style="color:aqua;">
+            <caption  style="color:black" align="center"><h3>Create Account</h3></caption>
+            <tr align="left">
+                <th>First Name*</th>
+                <th>Last Name</th>
+            </tr>
+            <tr align="left">
+                <th><input type="text" placeholder="enter your first name" name="firstname"></th>
+                <th><input type="text" placeholder="enter your last name" name="lastname"></th>
+            </tr>
+            <tr align="left">
+                <th>Email*</th>
+            </tr>
+            <tr align="left">
+                <th colspan="2"><input type="text" style="width:80%" placeholder="enter your email" name="email"></th>
+            </tr>
+            <tr align="left">
+                <th>Password*</th>
+                <th>Confirm Password*</th>
+            </tr>
+            <tr align="left">
+                <th><input type="text" placeholder="enter your password" name="password"></th>
+                <th><input type="text" placeholder="enter your password again"></th>
+            </tr>
+            <tr align="left">
+                <th>Gender:</th>
+                <th>Hobbies</th>
+            </tr>
+            <tr align="left" style="color:black;">
+                <th><input type="radio" name="gender">Male<input type="radio" name="gender">Female</th>
+                <th><input type="checkbox" name="hobbies">Music<input type="checkbox" name="hobbies">Sports<input type="checkbox" name="hobbies">Travel<input type="checkbox" name="hobbies">Movies</th>
+            </tr>
+            <tr align="left">
+                <th>Source of Income</th>
+                <th>Income</th>
+            </tr>
+            <tr align="left">
+               <th><select name="source">
+                <option id="job">job</option>
+                <option selected disabled>select source</option>
+                <option id="business">business</option>
+                <option id="employed">employed</option>
+
+               </th>
+               <th><input type="range" name="income">20k</th> 
+            </tr>
+            <tr align="left">
+                <th>Upload profile</th>
+                <th>Age</th>
+            </tr>
+            <tr align="left">
+                <th style="color:black;"><input type="file" name="file"></th>
+                <th><input type="number" placeholder="enter age" name="age"></th>
+            </tr>
+            <tr align="left">
+                <th>Bio</th>
+            </tr>
+            <tr align="left">
+                <th colspan="2" align="left"><textarea></textarea></th>
+            </tr>
+            <tr align="left">
+                <th colspan="2" align="right"><button>Create</button></th>
+            </tr>
+
+        </table>    
+    </form>
+</body>
+</html>
